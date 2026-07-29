@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio · My Trail</title>
+    <link rel="stylesheet" href="style_claud.css">
+</head>
+
+<body class="page-wrapper">
+
+    <div class="ocean-bg"></div>
+
+    <header class="header">
+        <nav class="nav-bar">
+            <div>PORTFOLIO</div>
+            <ul class="nav-links">
+                <li><a href="aboutme_claud.html">ABOUT ME</a></li>
+                <li><a href="mydesign_claud.html">MY DESIGN</a></li>
+                <li><a href="mytrail_claud.html">MY TRAIL</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="section gallery">
+        <div class="marginalia">
+            <span>被點醒的瞬間,累積理解世界的方法。</span>
+        </div>
+
+        <div class="card-row">
+
+            <div class="book-card" data-book="naval">
+                <div class="cover"><img src="./book/book-1.png" alt="納瓦爾寶典"></div>
+                <div class="overlay-text">
+                    <span class="tag">推薦書籍</span>
+                    <h3>納瓦爾寶典</h3>
+                    <p>財富與幸福的槓桿,是一次次清醒的選擇。</p>
+                </div>
+            </div>
+
+            <div class="book-card" data-book="decisive">
+                <div class="cover"><img src="./book/book-2.png" alt="零偏見決斷法"></div>
+                <div class="overlay-text">
+                    <span class="tag">推薦書籍</span>
+                    <h3>零偏見決斷法</h3>
+                    <p>小心確認偏誤,那只是假裝在尋找真相。</p>
+                </div>
+            </div>
+
+            <div class="book-card" data-book="putdown">
+                <div class="cover"><img src="./book/book-3.png" alt="人生是一次次的得到與放下"></div>
+                <div class="overlay-text">
+                    <span class="tag">推薦書籍</span>
+                    <h3>人生是一次次的得到與放下</h3>
+                    <p>人生重要的從來不是完美,而是完成。</p>
+                </div>
+            </div>
+
+            <div class="book-card" data-book="sameasever">
+                <div class="cover"><img src="./book/book-4.jpg" alt="Same as Ever"></div>
+                <div class="overlay-text">
+                    <span class="tag">推薦書籍</span>
+                    <h3>Same as Ever 一如既往</h3>
+                    <p>故事永遠比統計數據更有力。</p>
+                </div>
+            </div>
+
+            <div class="book-card" data-book="team">
+                <div class="cover"><img src="./book/book-5.jpg" alt="心理安全感溝通用語55"></div>
+                <div class="overlay-text">
+                    <span class="tag">推薦書籍</span>
+                    <h3>心理安全感溝通用語55</h3>
+                    <p>一直提醒要小心,本身就已經是一種不信任。</p>
+                </div>
+            </div>
+
+            <div class="book-card" data-book="wave">
+                <div class="cover"><img src="./book/book-6.png" alt="控制邊緣 The Coming Wave"></div>
+                <div class="overlay-text">
+                    <span class="tag">推薦書籍</span>
+                    <h3>控制邊緣 The Coming Wave</h3>
+                    <p>浪潮形成,幾乎不可能停止。</p>
+                </div>
+            </div>
+
+            <div class="book-card" data-book="safty">
+                <div class="cover"><img src="./book/book-7.png" alt="心理安全感 提問的技術"></div>
+                <div class="overlay-text">
+                    <span class="tag">推薦書籍</span>
+                    <h3>心理安全感 提問的技術</h3>
+                    <p>理解的關鍵在於追蹤問題,而不是回到自己身上。</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="p">這裡只是安靜的展間，收藏一路累積的自己。</p>
+        <p class="p">© 2025 Portfolio. All rights reserved.</p>
+    </footer>
+
+    <div class="book-modal" id="bookModal">
+        <div class="book-modal__panel">
+            <button class="book-modal__close" id="bookModalClose" aria-label="關閉">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                    <path d="M6 6L18 18M6 18L18 6" />
+                </svg>
+            </button>
+            <img class="book-modal__img" id="bookModalImg" src="" alt="">
+            <div class="book-modal__info">
+                <p class="book-modal__title" id="bookModalTitle"></p>
+                <p class="book-modal__meta" id="bookModalSubtitle"></p>
+                <p class="book-modal__meta" id="bookModalMeta"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="mytrail_claud.js"></script>
+
+</body>
+
+</html>

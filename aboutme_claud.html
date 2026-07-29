@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio · About Me</title>
+    <link rel="stylesheet" href="style_claud.css">
+    <script src="form_claud.js" defer></script>
+</head>
+
+<body class="page-wrapper">
+
+    <div class="ocean-bg"></div>
+
+    <header class="header">
+        <nav class="nav-bar">
+            <div>PORTFOLIO</div>
+            <ul class="nav-links">
+                <li><a href="aboutme_claud.html">ABOUT ME</a></li>
+                <li><a href="mydesign_claud.html">MY DESIGN</a></li>
+                <li><a href="mytrail_claud.html">MY TRAIL</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO：文字直接浮在共用背景上,沒有另外裁一張圖當banner -->
+        <section class="section hero hero-drift">
+            <h1>
+                總是期許自己 如章魚般 柔軟靈巧<br>
+                觀察環境 隱匿行跡<br><br>
+                在流動之間 練習尋回逐步清晰的色彩
+            </h1>
+        </section>
+
+        <div class="marginalia">
+            <span>每次駐足停留，慢慢拼湊出自己的輪廓。</span>
+        </div>
+
+        <!-- ABOUT ME -->
+        <section id="about" class="section">
+            <div class="container-row-group">
+                <div class="row">
+                    <h2 class="h2">ABOUT ME</h2>
+                    <p class="p">傾聽探問 樂於沉思 在複雜的問題間尋路 將回饋編織成解方<br />
+                        時代奔湧如潮 不斷學習新知以穿越未知的浪層<br />
+                        在橫跨不同領域的潮汐間 我所蒐集的水滴</p>
+                </div>
+            </div>
+
+            <div class="container-col-group">
+                <div class="col">
+                    <h3 class="h3">Experience &amp; Insights</h3>
+                    <p class="p">
+                        教育－ 針對不同受眾轉譯新訊息的能力<br />
+                        政府－ 兼顧不同立場與需求的公共視角 公平且可行<br />
+                        專案－ 察覺需求 思索解方 回饋是築起前進的階梯<br />
+                        會展－ 陌生開發的勇氣 預知未來的細心 以及管理的實踐<br />
+                    </p>
+                    <div class="marginalia">
+                        <span>在不同領域間游移，找到它們共同的語言。</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3 class="h3">Professional Development</h3>
+                    <p class="p">
+                        臺大管理碩士學分班－ 比執行者更高層次的視野<br />
+                        UI UX－ 熟練 figma 工具及設計專案流程<br />
+                        網頁設計－ 程式邏輯奠定數位專案概念及與技術人員溝通的基礎<br />
+                    </p>
+                    <div class="marginalia">
+                        <span>看似無關的片刻，終將彼此連結，成為自己的一部分。</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FEEDBACK -->
+        <section id="feedback" class="section">
+            <div class="container-row-group">
+                <h2 class="h2">LEAVE YOUR FOOTPRINTS</h2>
+                <div class="form">
+                    <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="4b1d34f7-1939-4fa5-8e92-2cdb14ba3c9f">
+
+                        <input type="text" name="name" id="name" class="textarea" placeholder="Your name here" required>
+                        <input type="email" name="email" id="email" class="textarea" placeholder="Your email here"
+                            required>
+                        <textarea name="message" id="message" class="textarea" placeholder="Your opinion"
+                            required></textarea>
+                        <button type="submit" class="mail-button">SEND</button>
+                    </form>
+                    <div class="toast" id="toast"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="marginalia">
+            <span>這裡只是安靜的展間，收藏一路累積的自己。</span>
+        </div>
+        <p class="p">© 2025 Portfolio. All rights reserved.</p>
+    </footer>
+
+
+
+</body>
+
+</html>
